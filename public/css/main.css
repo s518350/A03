@@ -1,0 +1,412 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   @media only screen and (min-width: 768px) {
+
+    #headshot {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar-brand {
+        color: #006747;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar-brand:hover{
+        color: black;
+    }
+
+    #skills p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    .jumbotron {
+        background-color: #006747;
+    }
+
+    .jumbotron p {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .jumbotron h1 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+    h2 { 
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    p, h2 { 
+        color: #006747;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+        color: white;
+    }
+
+    #submitButton {
+        color: #006747;
+        padding: 10px 10px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    #myName {
+        font-size: 40px;
+    }
+
+    .col-lg-4 ul li {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .social-icons li{
+        display: inline;
+        justify-content: end;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+    }
+
+    .row,
+    .row > .column {
+        padding: 8px;
+    }
+
+    .Incontent h3, .Incontent p {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Incontent h3, .Outcontent h3 {
+        font-size:30px;
+        font-weight: bold;
+    }
+
+    .Incontent p, .Outcontent p {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .Outcontent h3, .Outcontent p {
+        color: #006747;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+/*@media only screen and (min-width: 600px) {
+    .Incontent img {
+        width:75%;
+        height: 300px;
+    }
+    .Outcontent img {
+        width:75%;
+        height: 300px;
+    }
+    .indexInfo {
+        width: 100%;
+    }
+    .indexInfo .image {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+    .indexInfo iframe {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+    #headshot {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar-brand {
+        color: #006747;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar-brand:hover{
+        color: black;
+    }
+
+    #skills p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    .jumbotron {
+        background-color: #006747;
+    }
+
+    .jumbotron p {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .jumbotron h1 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+    h2 { 
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    p, h2 { 
+        color: #006747;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+        color: white;
+    }
+
+    #submitButton {
+        color: #006747;
+        padding: 10px 10px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    #myName {
+        font-size: 40px;
+    }
+
+    .col-lg-4 ul li {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .social-icons li{
+        display: inline;
+        justify-content: end;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+    }
+
+    .row,
+    .row > .column {
+        padding: 8px;
+    }
+
+    .Incontent h3, .Incontent p {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Incontent h3, .Outcontent h3 {
+        font-size:30px;
+        font-weight: bold;
+    }
+
+    .Incontent p, .Outcontent p {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .Outcontent h3, .Outcontent p {
+        color: #006747;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}*/
+
+@media only screen and (max-width: 480px) {
+    #headshot {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar-brand {
+        color: #006747;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar-brand:hover{
+        color: black;
+    }
+
+    #skills p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    .jumbotron {
+        background-color: #006747;
+    }
+
+    .jumbotron p {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .jumbotron h1 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+    h2 { 
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    p, h2 { 
+        color: #006747;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+        color: white;
+    }
+
+    #submitButton {
+        color: #006747;
+        padding: 10px 10px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    #myName {
+        font-size: 40px;
+    }
+
+    .col-lg-4 ul li {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    .social-icons li{
+        display: inline;
+        justify-content: end;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+    }
+
+    .row,
+    .row > .column {
+        padding: 8px;
+    }
+
+    .Incontent h3, .Incontent p {
+        display: none;
+    }
+
+    .Incontent h3, .Outcontent h3 {
+        display: none;
+    }
+
+    .Incontent p, .Outcontent p {
+       display: none;
+    }
+
+    .Outcontent h3, .Outcontent p {
+        display: none;
+    }
+    .Incontent img {
+        display: none;
+    }
+    .Outcontent img {
+        display: none;
+    }
+    .indexInfo {
+        width: 100%;
+    }
+    .indexInfo .image {
+        display: none;
+    }
+    .indexInfo iframe {
+        display: none;
+    }
+}
