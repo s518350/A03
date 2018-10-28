@@ -1,5 +1,5 @@
 {
-  "name": "amywhitedeveloper",
+  "name": "Amy White A03",
   "version": "1.0.0",
   "description": "A resume site using Node, Express, Bootstrap, EJS",
   "main": "app.js",
@@ -13,14 +13,5 @@
     "ejs": "latest",
     "express": "latest",
     "morgan": "latest"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/s518350/A03.git"
-  },
-  "bugs": {
-    "url": "https://github.com/s518350/A03/issues"
-  },
-  "homepage": "https://github.com/s518350/A03#readme"
+  }
 }
