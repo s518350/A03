@@ -13,5 +13,14 @@
     "ejs": "latest",
     "express": "latest",
     "morgan": "latest"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s518350/A03.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s518350/A03/issues"
+  },
+  "homepage": "https://github.com/s518350/A03#readme"
 }
