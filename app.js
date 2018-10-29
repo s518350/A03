@@ -40,11 +40,26 @@ app.get("/contact", function (req, res) {
 // 5 handle valid POST request
 //html POST /contact
 app.post("/contact", function (req, res) {
-  const name = req.body.inpuname;
-  const email = req.body.inputemail;
-  const phone = req.body.inputphone;
-  const message = req.body.inputmessage;
-  const isError = true;
+  var api_key = '5a4a2726cc8dc74c5e0561d054d8576d-c9270c97-ec922873';
+var domain = 'sandbox7a25494c9c8b46cdbcf5ae0e632f5916.mailgun.org';
+var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+ 
+var data = {
+  from: 'a-white-portfolio <postmaster@sandbox7a25494c9c8b46cdbcf5ae0e632f5916.mailgun.org>',
+  to: 'amywhite8206@gmail.com',
+  subject: req.body.firstName,
+  text: req.body.message
+};
+ 
+mailgun.messages().send(data, function (error, body) {
+  console.log(body);
+  console.log(error);
+  if(!error) {
+    res.send("Mail sent");
+  }
+  else
+    res.send("Mail not sent");
+});
 })
 
 // 6 respond with 404 if a bad URI is requested

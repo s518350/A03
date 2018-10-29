@@ -4,11 +4,11 @@
   "description": "Web Apps and Services project",
   "main": "app.js",
   "dependencies": {
-    "express": "latest",
-    "morgan": "latest",
     "body-parser": "latest",
     "ejs": "latest",
-    "mailgun-js": "latest"
+    "express": "latest",
+    "mailgun-js": "^0.22.0",
+    "morgan": "latest"
   },
   "scripts": {
     "start": "node app.js"
