@@ -47,24 +47,12 @@ app.post("/contact", function (req, res) {
   const isError = true;
 })
 
-//setup e-mail data with unicode symbols
-//const mailOptions = {
-  //from: '"Amy White" <amywhite8206@gmail.com>', //sender address
-  //to: 'amywhite8206@gmail.com, s518350@nwmissouri.edu', //list of receivers
-  //subject: 'Message from Website Contact Page', //Subject Line
-  //text: message,
-  //err: isError
-//}
-
-//logs to the terminal window (not the browser)
-//console.log('\nCONTACT FORM DATA: ' + name + ' ' + email + ' ' + phone + ' ' + message + '\n');
-
 // 6 respond with 404 if a bad URI is requested
 app.get(function (req, res){
   res.sender("404")
 })
 
 // Listen for an application request on port 8081
-http.listen(8081, function () {
+http.listen(process.env.PORT || 8081, function () {
   console.log('app listening on http://127.0.0.1:8081/')
 })
