@@ -65,6 +65,6 @@ img8.onclick = function() {
 var span = document.getElementsByClassName("close")[0];
 
 //When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+$("span").click(function(){
     modal.style.display="none";
-}
+})
