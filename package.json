@@ -4,21 +4,21 @@
   "description": "Web Apps and Services project",
   "main": "app.js",
   "dependencies": {
-    "enzyme": "^2.9.1",
-    "eslint": "^3.19.0"
+    "express": "latest",
+    "morgan": "latest",
+    "body-parser": "latest",
+    "ejs": "latest",
+    "mailgun-js": "latest"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/s518350/A03.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Amy White",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/s518350/A03/issues"
   },

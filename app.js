@@ -54,5 +54,6 @@ app.get(function (req, res){
 
 // Listen for an application request on port 8081
 http.listen(process.env.PORT || 8081, function () {
+  console.log(process.env.PORT)
   console.log('app listening on http://127.0.0.1:8081/')
 })
