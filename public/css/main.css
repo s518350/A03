@@ -1,485 +1,205 @@
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-   @media only screen and (min-width: 768px) {
-
-    #headshot {
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .navbar {
-        background-color: white;
-    }
-
-    .navbar-brand {
-        color: #006747;
-        font-size: 2em;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .navbar-brand:hover{
-        color: black;
-    }
-
-    #skills p {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25em;
-        font-weight: bold;
-    }
-
-    .jumbotron {
-        background-color: #006747;
-    }
-
-    .jumbotron p {
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    .jumbotron h1 {
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-    }
-
-    h2 { 
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    p, h2 { 
-        color: #006747;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .form {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25em;
-        color: white;
-    }
-
-    #submitButton {
-        color: #006747;
-        padding: 10px 10px;
-        font-size: 16px;
-        border-radius: 10px;
-    }
-
-    #myName {
-        font-size: 40px;
-    }
-
-    .col-lg-4 ul li {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    .social-icons li{
-        display: inline;
-        justify-content: end;
-    }
-
-    .column {
-        float: left;
-        width: 25%;
-    }
-
-    .row,
-    .row > .column {
-        padding: 8px;
-    }
-
-    .Incontent h3, .Incontent p {
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .Incontent h3, .Outcontent h3 {
-        font-size:30px;
-        font-weight: bold;
-    }
-
-    .Incontent p, .Outcontent p {
-        font-size: 18px;
-        font-weight: normal;
-    }
-
-    .Outcontent h3, .Outcontent p {
-        color: #006747;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    /* Style image used to trigger modal */
-    .portfolioImages {
-        border-radius: 5px;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-    .portfolioImages:hover {opacity: 0.7;}
-
-    /* The Modal (background) */
-    .modal {
-        display: none;
-        position: fixed; 
-        z-index: 1;
-        padding-top: 100px;
-        left:0;
-        top:0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgb(0,0,0);
-        background-color: rgba(0,0,0,0.9);
-    }
-
-    /*Modal Content (Image) */
-    .modal-content {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px; 
-    }
-
-    /*Caption of Modal Image*/
-    #caption {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-        text-align: center;
-        color: #ccc;
-        padding: 10px 0;
-        height: 150px;
-    }
-
-    /* Add Animation - Zoom in the Modal*/
-    .modal-content, #caption {
-        animation-name: zoom;
-        animation-duration: 0.6s;
-    }
-
-    @keyframes zoom {
-        from {transform: scale(0)}
-        to {transform: scale(1)}
-    }
-
-    /* The close button */
-    .close {
-        position: absolute;
-        top: 15px;
-        right: 35px; 
-        color: #f1f1f1;
-        font-size: 40px;
-        font-weight: bold;
-        transition: 0.3s;
-    }
-
-    .close:hover, .close:focus {
-        color: #bbb;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
+.list-group-item {
+    background-color: #006747;
+    color: white;
 }
 
-@media only screen and (min-width: 600px) {
-    .Incontent img {
-        width:75%;
-        height: 300px;
-    }
-    .Outcontent img {
-        width:75%;
-        height: 300px;
-    }
-    .indexInfo {
-        width: 100%;
-    }
-    .indexInfo .image {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 50%;
-    }
-    .indexInfo iframe {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 50%;
-    }
-    #headshot {
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .navbar {
-        background-color: white;
-    }
-
-    .navbar-brand {
-        color: #006747;
-        font-size: 2em;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .navbar-brand:hover{
-        color: black;
-    }
-
-    #skills p {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25em;
-        font-weight: bold;
-    }
-
-    .jumbotron {
-        background-color: #006747;
-    }
-
-    .jumbotron p {
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    .jumbotron h1 {
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-    }
-
-    h2 { 
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    p, h2 { 
-        color: #006747;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .form {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25em;
-        color: white;
-    }
-
-    #submitButton {
-        color: #006747;
-        padding: 10px 10px;
-        font-size: 16px;
-        border-radius: 10px;
-    }
-
-    #myName {
-        font-size: 40px;
-    }
-
-    .col-lg-4 ul li {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    .social-icons li{
-        display: inline;
-        justify-content: end;
-    }
-
-    .column {
-        float: left;
-        width: 25%;
-    }
-
-    .row,
-    .row > .column {
-        padding: 8px;
-    }
-
-    .Incontent h3, .Incontent p {
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .Incontent h3, .Outcontent h3 {
-        font-size:30px;
-        font-weight: bold;
-    }
-
-    .Incontent p, .Outcontent p {
-        font-size: 18px;
-        font-weight: normal;
-    }
-
-    .Outcontent h3, .Outcontent p {
-        color: #006747;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-}*/
-
-@media only screen and (max-width: 480px) {
-    #headshot {
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .navbar {
-        background-color: white;
-    }
-
-    .navbar-brand {
-        color: #006747;
-        font-size: 2em;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .navbar-brand:hover{
-        color: black;
-    }
-
-    #skills p {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25em;
-        font-weight: bold;
-    }
-
-    .jumbotron {
-        background-color: #006747;
-    }
-
-    .jumbotron p {
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    .jumbotron h1 {
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-    }
-
-    h2 { 
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    p, h2 { 
-        color: #006747;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .form {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.25em;
-        color: white;
-    }
-
-    #submitButton {
-        color: #006747;
-        padding: 10px 10px;
-        font-size: 16px;
-        border-radius: 10px;
-    }
-
-    #myName {
-        font-size: 40px;
-    }
-
-    .col-lg-4 ul li {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    .social-icons li{
-        display: inline;
-        justify-content: end;
-    }
-
-    .column {
-        float: left;
-        width: 25%;
-    }
-
-    .row,
-    .row > .column {
-        padding: 8px;
-    }
-
-    .Incontent h3, .Incontent p {
-        display: none;
-    }
-
-    .Incontent h3, .Outcontent h3 {
-        display: none;
-    }
-
-    .Incontent p, .Outcontent p {
-       display: none;
-    }
-
-    .Outcontent h3, .Outcontent p {
-        display: none;
-    }
-    .Incontent img {
-        display: none;
-    }
-    .Outcontent img {
-        display: none;
-    }
-    .indexInfo {
-        width: 100%;
-    }
-    .indexInfo .image {
-        display: none;
-    }
-    .indexInfo iframe {
-        display: none;
-    }
+#headshot {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    color: #006747;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.jumbotron {
+    background-color: #006747;
+}
+
+.jumbotron p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.jumbotron h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.jumbotron h3 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#countdown p {
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.gradCD {
+    border: 5px dotted white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h2 { 
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+p, h2 { 
+    color: #006747;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: white;
+}
+
+#submitButton {
+    color: #006747;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#myName {
+    font-size: 40px;
+}
+
+.social-icons li{
+    display: inline;
+    justify-content: end;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.indexInfo iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+/* Style image used to trigger modal */
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover, #img7:hover, #img8:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+/*Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px; 
+}
+
+/*Caption of Modal Image*/
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal*/
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* The close button */
+.close {
+    position: relative;
+    top: 15px;
+    right: 35px; 
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-device-width: 480px){
+    .skills{display:none;}
+    .gradCD{display:none;}
+    .jumbotron{margin-top:60px;}
+    .embed-responsive{display:none;}
+    .img-fluid{display:none;}
+}
+
+
+ 

@@ -1,138 +1,142 @@
 <% include header %>
 
-<div class="jumbotron" id="skills">
-    <h1>My Skills Include:</h1>
-    <br />
-    <div class="container">
+<div class="container">
+    <div class="jumbotron">
         <div class="row">
-            <div class="col-lg-4">
-                <ul>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
+            <div class="col-7">
+                <h1>My Skills Include:</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">JavaScript</li>
+                            <li class="list-group-item">jQuery</li>
+                            <li class="list-group-item">HTML</li>
+                            <li class="list-group-item">CSS</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">C++</li>
+                            <li class="list-group-item">JavajQuery</li>
+                            <li class="list-group-item">Python</li>
+                            <li class="list-group-item">SQL</li>
+                            <li class="list-group-item">NoSQL</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Adobe InDesign</li>
+                            <li class="list-group-item">Adobe Illustrator</li>
+                            <li class="list-group-item">Adobe Photoshop</li>
+                            <li class="list-group-item">Adobe Lightroom</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <br />
-            <div class="col-lg-4">
-                <ul>
-                    <li>C++</li>
-                    <li>JavajQuery</li>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>NoSQL</li>
-                </ul>
-            </div>
-            <div class="col-lg-4">
-                <ul>
-                    <li>Adobe InDesign</li>
-                    <li>Adobe Illustrator</li>
-                    <li>Adobe Photoshop</li>
-                    <li>Adobe Lightroom</li>
-                </ul>
+            <div class="col-1"></div>
+            <div class="col-4 gradCD">
+                <h3>Countdown to Graduation</h3>
+                <p id="countdown"></p>
+                <center><img src="images/partyHat.png" class="img-fluid" width="100px" height="200px" /></center>
             </div>
         </div>
     </div>
 </div>
 
 
-<h2>Check Out My Code</h1>
-    <br />
-    <div class="container">
+<div class="container">
+    <h2>Check Out My Code</h1>
+        <br />
         <div class="row">
             <div class=col-lg-4></div>
             <div class="col-lg-4">
-                <p><a href="https://github.com/s518350"><img src='images/github.png' height="100px" width="100px" /></a>
-                    <a href="https://bitbucket.org/amywhite8206/"><img src='images/bitbucket.png' height="100px" width="100px" /></a></p>
+                <p><a href="https://github.com/s518350"><img src='images/github.png' class="img-fluid" height="100px"
+                            width="100px" /></a>
+                    <a href="https://bitbucket.org/amywhite8206/"><img src='images/bitbucket.png' class="img-fluid"
+                            height="100px" width="100px" /></a></p>
             </div>
             <div class=col-lg-4></div>
         </div>
-    </div>
+</div>
 
-    <div class="jumbotron" id="skills">
-        <h1>Check Out My Design Work: <a href="https://www.slideshare.net/AmyWhite95"><img src='images/slideshow.jpg' height="100px"
-                    width="100px" /></a></h1>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Check Out My Design Work: <a href="https://www.slideshare.net/AmyWhite95"><img src='images/slideshow.jpg'
+                    class="img-fluid" height="100px" width="100px" /></a></h1>
         <br />
-        <!--Trigger Modal-->
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <div class="Incontent">
-                        <img class="portfolioImages" src="images/Cards1.JPG" alt="Card Design" style="width:100%" height="500px">
-                        <h3>Card Design</h3>
-                        <p>This was for a project in Typography I. The goal was to design and print a deck of cards
-                            along with a box.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="Incontent">
-                        <img class="portfolioImages" src="images/FrontPageNewsWhite.jpg" alt="Newspaper Design" style="width:100%" height="500px">
-                        <h3>Newspaper Design</h3>
-                        <p>This was a project for Media Design. The goal was to design the front page of a magazine
-                            with good headlines and layout.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="Incontent">
-                        <img class="portfolioImages" src="images/WhiteAInfographic.jpg" alt="Infographic Design" style="width:100%" height="500px">
-                        <h3>Infographic</h3>
-                        <p>This was a project for Media Design. The goal was to design a well titled and laid out
-                            infographic.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="Incontent">
-                        <img class="portfolioImages" src="images/vectorgirlJPG.jpg" alt="Vector Design" style="width:100%" height="500px">
-                        <h3>Vector Design</h3>
-                        <p>This was a project for Computer Graphics I. The goal was to vectorize a portrait with
-                            Adobe
-                            Illustrator.</p>
-                    </div>
-                </div>
+        <div class="row skills">
+            <div class="column">
+                <img id="img1" src="images/Cards1.JPG" class="img-fluid" alt="Card Design" style="width:100%" height="500px">
+                <h3>Card Design</h3>
+                <p>This was for a project in Typography I. The goal was to design and print a deck of cards
+                    along with a box.</p>
+            </div>
+            <div class="column">
+                <img id="img2" src="images/FrontPageNewsWhite.jpg" class="img-fluid" alt="Newspaper Design" style="width:100%"
+                    height="500px">
+                <h3>Newspaper Design</h3>
+                <p>This was a project for Media Design. The goal was to design the front page of a magazine
+                    with good headlines and layout.</p>
+            </div>
+            <div class="column">
+                <img id="img3" src="images/WhiteAInfographic.jpg" class="img-fluid" alt="Infographic Design" style="width:100%"
+                    height="500px">
+                <h3>Infographic</h3>
+                <p>This was a project for Media Design. The goal was to design a well titled and laid out
+                    infographic.</p>
+            </div>
+            <div class="column">
+                <img id="img4" src="images/vectorgirlJPG.jpg" class="img-fluid" alt="Vector Design" style="width:100%"
+                    height="500px">
+                <h3>Vector Design</h3>
+                <p>This was a project for Computer Graphics I. The goal was to vectorize a portrait with
+                    Adobe
+                    Illustrator.</p>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <div class="Outcontent">
-                    <img class="portfolioImages" src="images/WhiteAWebsite.jpg" alt="Website Design" style="width:100%" height="500px">
-                    <h3>Website Design</h3>
-                    <p>This was for a project in Media Design. The goal was to re-design a bad website.</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="Outcontent">
-                    <img class="portfolioImages" src="images/SpecSheet1.JPG" alt="Spec Sheet Front" style="width:100%" height="500px">
-                    <h3>Spec Sheet (Front)</h3>
-                    <p>This was a project for Typography I. The goal was to design a spec sheet with provided
-                        material.</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="Outcontent">
-                    <img class="portfolioImages" src="images/SpecSheet2.JPG" alt="Spec Sheet Design Back" style="width:100%" height="500px">
-                    <h3>Spec Sheet (Back)</h3>
-                    <p>This was a project for Typography I. The goal was to design a spec sheet with provided
-                        material.</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="Outcontent">
-                    <img class="portfolioImages" src="images/TypeForm.JPG" alt="Type Form Design" style="width:100%" height="500px">
-                    <h3>Type Form Design</h3>
-                    <p>This was a project for Typography I. The goal was to create a design using only our
-                        initials.</p>
-                </div>
-            </div>
+</div>
+
+<div class="container">
+    <div class="row skills">
+        <div class="column">
+            <img id="img5" src="images/WhiteAWebsite.jpg" class="img-fluid" alt="Website Design" style="width:100%"
+                height="500px">
+            <h3>Website Design</h3>
+            <p>This was for a project in Media Design. The goal was to re-design a bad website.</p>
+        </div>
+        <div class="column">
+            <img id="img6" src="images/SpecSheet1.JPG" class="img-fluid" alt="Spec Sheet Front" style="width:100%"
+                height="500px">
+            <h3>Spec Sheet (Front)</h3>
+            <p>This was a project for Typography I. The goal was to design a spec sheet with provided
+                material.</p>
+        </div>
+        <div class="column">
+            <img id="img7" src="images/SpecSheet2.JPG" class="img-fluid" alt="Spec Sheet Design Back" style="width:100%"
+                height="500px">
+            <h3>Spec Sheet (Back)</h3>
+            <p>This was a project for Typography I. The goal was to design a spec sheet with provided
+                material.</p>
+        </div>
+        <div class="column">
+            <img id="img8" src="images/TypeForm.JPG" class="img-fluid" alt="Type Form Design" style="width:100%" height="500px">
+            <h3>Type Form Design</h3>
+            <p>This was a project for Typography I. The goal was to create a design using only our
+                initials.</p>
         </div>
     </div>
-    <!-- The Modal -->
+</div>
+
+<!-- The Modal -->
+<div class="container">
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img01">
         <div id="caption"></div>
     </div>
+</div>
 
-
-    <% include footer %>
+<script src="js/portfolio.js"></script>
+<script src="js/clock.js"></script>
+<% include footer %>
