@@ -1,34 +1,25 @@
 {
-<<<<<<< HEAD
-  "name": "Amy White A03",
-=======
-  "name": "amywhitedeveloper",
->>>>>>> a2f1593c9d901b5bf198833a95c7d821c59a1a16
+  "name": "A03",
   "version": "1.0.0",
-  "description": "A resume site using Node, Express, Bootstrap, EJS",
+  "description": "Web Apps and Services project",
   "main": "app.js",
+  "dependencies": {
+    "enzyme": "^2.9.1",
+    "eslint": "^3.19.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Amy White",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "latest",
-    "ejs": "latest",
-    "express": "latest",
-    "morgan": "latest"
-<<<<<<< HEAD
-  }
-=======
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/s518350/A03.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/s518350/A03/issues"
   },
   "homepage": "https://github.com/s518350/A03#readme"
->>>>>>> a2f1593c9d901b5bf198833a95c7d821c59a1a16
 }
